@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Somke" parallel="tests" thread-count="2">
+<listeners>
+<listener class-name="com.libarary.MyNXGTestListner"></listener>
+</listeners>
+  <test name="Sanity1">
+ <parameter name="port" value="4723" />
+		<parameter name="udid" value="ba0bfc7a" />
+		<parameter name="deviceName" value="ba0bfc7a" />
+		<parameter name="platformVersion" value="5.1.1" />
+    <classes>
+      <class name="com.script.LoginTest"/>
+    </classes>
+  </test> <!-- Default test -->
+  
+<!--    <test name="Sanity2" >
+ <parameter name="port" value="4725" />
+		<parameter name="udid" value="G5AXB727E236P4Z" />
+		<parameter name="deviceName" value="G5AXB727E236P4Z" />
+		<parameter name="platformVersion" value="6.0.1" />
+    <classes>
+      <class name="com.script.FilterTest"/>
+      <class name="com.script.ToastMessage"/>
+    </classes>
+  </test> Default test -->
+ 
+</suite> <!-- Default suite -->

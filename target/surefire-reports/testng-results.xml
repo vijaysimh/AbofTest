@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Somke" duration-ms="34251" started-at="2017-07-24T11:16:54Z" finished-at="2017-07-24T11:17:28Z">
+    <groups>
+    </groups>
+    <test name="Sanity1" duration-ms="34251" started-at="2017-07-24T11:16:54Z" finished-at="2017-07-24T11:17:28Z">
+      <class name="com.script.LoginTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.script.LoginTest@6d00a15d]" name="setup" is-config="true" duration-ms="9956" started-at="2017-07-24T16:46:54Z" finished-at="2017-07-24T16:47:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ba0bfc7a]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5.1.1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ba0bfc7a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="abofLoginApplication()[pri:1, instance:com.script.LoginTest@6d00a15d]" name="abofLoginApplication" duration-ms="23750" started-at="2017-07-24T16:47:04Z" description="Login to the abof application" finished-at="2017-07-24T16:47:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abofLoginApplication -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.script.LoginTest@6d00a15d]" name="teardown" is-config="true" duration-ms="531" started-at="2017-07-24T16:47:27Z" finished-at="2017-07-24T16:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.script.LoginTest -->
+    </test> <!-- Sanity1 -->
+  </suite> <!-- Somke -->
+</testng-results>

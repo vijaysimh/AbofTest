@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Somke]" parallel="tests">
+  <parameter name="port" value="4723"/>
+  <parameter name="platformVersion" value="5.1.1"/>
+  <parameter name="udid" value="ba0bfc7a"/>
+  <parameter name="deviceName" value="ba0bfc7a"/>
+  <listeners>
+    <listener class-name="com.libarary.MyNXGTestListner"/>
+  </listeners>
+  <test name="Sanity1(failed)" parallel="tests">
+    <parameter name="port" value="4723"/>
+    <parameter name="platformVersion" value="5.1.1"/>
+    <parameter name="udid" value="ba0bfc7a"/>
+    <parameter name="deviceName" value="ba0bfc7a"/>
+    <classes>
+      <class name="com.script.ToastMessage">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="verifYToastMessage"/>
+        </methods>
+      </class> <!-- com.script.ToastMessage -->
+    </classes>
+  </test> <!-- Sanity1(failed) -->
+</suite> <!-- Failed suite [Somke] -->
